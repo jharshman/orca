@@ -1,0 +1,6 @@
+dependencies {
+  compile project(":orca-retrofit")
+  spinnaker.group('jackson')
+  compile spinnaker.dependency('jacksonGuava')
+  testCompile project(":orca-test")
+}
